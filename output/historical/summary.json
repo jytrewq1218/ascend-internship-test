@@ -1,69 +1,69 @@
 {
-  "total_events": 3650956,
+  "total_events": 118027,
   "quarantine_events": 8,
   "repair_events": 0,
   "events_by_state": {
     "data_trust": {
-      "TRUSTED": 3331392,
-      "DEGRADED": 1101,
-      "UNTRUSTED": 318463
+      "TRUSTED": 54632,
+      "DEGRADED": 3,
+      "UNTRUSTED": 63392
     },
     "hypothesis": {
-      "VALID": 3646195,
-      "WEAKENING": 1101,
+      "VALID": 114364,
+      "WEAKENING": 3,
       "INVALID": 3660
     },
     "decision": {
-      "ALLOWED": 3331392,
-      "RESTRICTED": 1101,
-      "HALTED": 318463
+      "ALLOWED": 54632,
+      "RESTRICTED": 3,
+      "HALTED": 63392
     }
   },
   "dwell": {
     "sanitization": {
       "total_ts": {
-        "QUARANTINE": 29109,
-        "ACCEPT": 2651435
+        "QUARANTINE": 74144,
+        "ACCEPT": 2499890
       },
       "avg_ts": {
-        "QUARANTINE": 4851,
-        "ACCEPT": 530287
+        "QUARANTINE": 12357,
+        "ACCEPT": 499978
       }
     },
     "data_trust": {
       "total_ts": {
-        "DEGRADED": 2854447,
-        "UNTRUSTED": 28495683,
-        "TRUSTED": 1262327595
+        "DEGRADED": 55933,
+        "UNTRUSTED": 19257535,
+        "TRUSTED": 17022290
       },
       "avg_ts": {
-        "DEGRADED": 2590,
-        "UNTRUSTED": 43175,
-        "TRUSTED": 778733
+        "DEGRADED": 13983,
+        "UNTRUSTED": 1925753,
+        "TRUSTED": 1891365
       }
     },
     "hypothesis": {
       "total_ts": {
-        "WEAKENING": 2854447,
-        "INVALID": 1197381,
-        "VALID": 1289625897
+        "WEAKENING": 55933,
+        "INVALID": 1150592,
+        "VALID": 35129233
       },
       "avg_ts": {
-        "WEAKENING": 2590,
-        "INVALID": 1197381,
-        "VALID": 1170259
+        "WEAKENING": 13983,
+        "INVALID": 1150592,
+        "VALID": 8782308
       }
     },
     "decision": {
       "total_ts": {
-        "RESTRICTED": 2854447,
-        "HALTED": 28495683,
-        "ALLOWED": 1262327595
+        "RESTRICTED": 55933,
+        "HALTED": 19257535,
+        "ALLOWED": 17022290
       },
       "avg_ts": {
-        "RESTRICTED": 2590,
-        "HALTED": 43175,
-        "ALLOWED": 778733
+        "RESTRICTED": 13983,
+        "HALTED": 1925753,
+        "ALLOWED": 1891365
       }
     }
   }
