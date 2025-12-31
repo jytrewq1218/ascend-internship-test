@@ -1,0 +1,68 @@
+{
+  "total_events": 36500,
+  "quarantine_events": 1,
+  "repair_events": 1,
+  "events_by_state": {
+    "data_trust": {
+      "TRUSTED": 0,
+      "DEGRADED": 31501,
+      "UNTRUSTED": 4999
+    },
+    "hypothesis": {
+      "VALID": 34100,
+      "WEAKENING": 13,
+      "INVALID": 2387
+    },
+    "decision": {
+      "ALLOWED": 0,
+      "RESTRICTED": 31501,
+      "HALTED": 4999
+    }
+  },
+  "dwell": {
+    "sanitization": {
+      "total_ts": {
+        "QUARANTINE": 1171508,
+        "ACCEPT": 657628,
+        "REPAIR": 14046
+      },
+      "avg_ts": {
+        "QUARANTINE": 1171508,
+        "ACCEPT": 657628,
+        "REPAIR": 14046
+      }
+    },
+    "data_trust": {
+      "total_ts": {
+        "DEGRADED": 44768644,
+        "UNTRUSTED": 7870192
+      },
+      "avg_ts": {
+        "DEGRADED": 6395520,
+        "UNTRUSTED": 1311698
+      }
+    },
+    "hypothesis": {
+      "total_ts": {
+        "WEAKENING": 679452,
+        "INVALID": 2082429,
+        "VALID": 50027002
+      },
+      "avg_ts": {
+        "WEAKENING": 48532,
+        "INVALID": 2082429,
+        "VALID": 3573357
+      }
+    },
+    "decision": {
+      "total_ts": {
+        "RESTRICTED": 44768644,
+        "HALTED": 7870192
+      },
+      "avg_ts": {
+        "RESTRICTED": 6395520,
+        "HALTED": 1311698
+      }
+    }
+  }
+}

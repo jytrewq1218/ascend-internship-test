@@ -1,0 +1,24 @@
+time_alignment:
+  allowed_lateness_ms: 1000
+  max_buffer_ms: 5000
+
+sanitization:
+
+data_trust:
+  window_events: 100
+  quarantine_untrusted_rate: 0.10
+  late_degraded_rate: 0.50
+  late_untrusted_rate: 0.80
+  forced_flush_degraded_rate: 0.50
+  forced_flush_untrusted_rate: 0.80
+  buffer_len_degraded: 50000
+  buffer_len_untrusted: 200000
+  spread_explode_bps: 50.0
+  fat_finger_degraded_bps: 100.0
+  fat_finger_untrusted_bps: 200.0
+  trade_jump_degraded_bps: 100.0
+
+hypothesis:
+  weak_price_diverge_bps: 50.0
+  invalid_price_diverge_bps: 100.0
+  stable_min_duration_ms: 500

@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+log/*
+!log/.gitkeep
+data/research
+data/validation
+!data/research/.gitkeep
+!data/validation/.gitkeep
+.vscode
+.history
+.python-version
+.DS_Store

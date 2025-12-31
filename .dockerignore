@@ -1,0 +1,13 @@
+data/
+log/
+output/
+
+.git/
+__pycache__/
+**/__pycache__/
+
+.venv/
+venv/
+
+.DS_Store
+Thumbs.db

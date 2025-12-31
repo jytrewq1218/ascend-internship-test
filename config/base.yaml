@@ -1,0 +1,26 @@
+mode: historical # historical | realtime
+exchange: binance-futures
+symbol: BTCUSDT
+
+paths:
+  phase: research
+  data_root: data
+  output_root: output
+  log_root: log
+
+adapters:
+  csv:
+    replay_speed: 0 # 0 = 최대속도, 0.5 = 2배속, 1 = 실시간 비율
+    max_replay_sleep_ms: 1000
+  ws:
+    reconnect_delay_ms: 1000
+    poll_interval_ms: 1000
+    open_interest_interval_ms: 1000
+    depth_snapshot_limit: 1000
+
+engine:
+  tick_interval_ms: 1000
+  trades_stall_threshold_ms: 500
+  orderbook_stall_threshold_ms: 500
+  liquidations_stall_threshold_ms: 5000
+  ticker_stall_threshold_ms: 5000
